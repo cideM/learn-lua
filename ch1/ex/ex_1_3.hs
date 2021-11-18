@@ -1,1 +1,3 @@
+-- Can you name other languages that use "--" for comments?
+-- Haskell is one, as can be seen here.
 -- Hi
