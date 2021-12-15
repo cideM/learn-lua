@@ -1,0 +1,2 @@
+-- Write a function to shuffle a given list. Make sure that all permutations are equally probably.
+-- Let's bring back Heap's algorithm from the eight queens puzzle! https://en.wikipedia.org/wiki/Heap%27s_algorithm

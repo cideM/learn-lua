@@ -1,0 +1,5 @@
+-- Write you own table.concat and compare the performance.
+-- I'll skip this. Since Lua doesn't have any string writer I'd have to use ..
+-- and that's of course really, really slow. The book itself recommends adding
+-- to a list and then calling table.concat. But since I don't have that
+-- available for this exercise, what's the point.
