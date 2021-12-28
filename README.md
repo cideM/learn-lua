@@ -1,6 +1,6 @@
 # Programming in Lua 4th Edition
 
-## Progress (4/33)
+## Progress (7/33)
 
 |     | Done    | Date                           |
 | --- | ------- | ----                           |
@@ -10,14 +10,14 @@
 | 4   | :bell:  | Mon Dec 13 00:00:42 2021 +0100 |
 | 5   | :bell:  | Wed Dec 15 21:16:47 UTC 2021   |
 | 6   | :bell:  | Mon Dec 27 21:17:53 UTC 2021   |
-| 7   | :bell:  |                                |
-| 8   | :bell:  |                                |
-| 9   | :bell:  |                                |
-| 10  | :bell:  |                                |
-| 11  | :bell:  |                                |
-| 12  | :bell:  |                                |
-| 13  | :bell:  |                                |
-| 14  | :bell:  |                                |
+| 7   | :bell:  | Tue Dec 28 23:38:53 UTC 2021   |
+| 8   | :zzz:   |                                |
+| 9   | :zzz:   |                                |
+| 10  | :zzz:   |                                |
+| 11  | :zzz:   |                                |
+| 12  | :zzz:   |                                |
+| 13  | :zzz:   |                                |
+| 14  | :zzz:   |                                |
 | 15  | :zzz:   |                                |
 | 16  | :zzz:   |                                |
 | 17  | :zzz:   |                                |
