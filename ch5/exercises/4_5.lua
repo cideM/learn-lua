@@ -2,6 +2,7 @@
 -- Lua as a list of its coefficients, such as [a0,a1,...,an].
 -- Write a function that takes a polynomial (represented as a table) and a
 -- value for x and returns the polynomial value.
+-- https://www.mathsisfun.com/algebra/polynomials.html
 function polynomial(list, x)
   local sum = 0
   for i, c in ipairs(list) do
