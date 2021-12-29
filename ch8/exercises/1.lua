@@ -1,0 +1,2 @@
+-- 8.1 Many languages don't have elseif, why does Lua need one?
+-- Because it doesn't have switch statements

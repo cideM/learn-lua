@@ -1,0 +1,5 @@
+-- 8.3 repeat-until is seldom used, and shouldn't be part of a minimalistic language like Lua. What do you think?
+-- I think I agree. But I must also admit that the languages I've worked with
+-- often didn't have such a construct so I'm just not used to it. But
+-- considering how trivial it is to convert between repeat and while, I'd say
+-- one is enough.

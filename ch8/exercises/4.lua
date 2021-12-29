@@ -1,0 +1,3 @@
+-- 8.4 Rewrite the maze game from goto to tail call recursion
+-- I'll skip this since it doesn't seem like I'd learn anything from it, given
+-- that I write Haskell quite often and am familiar with tail calls.
