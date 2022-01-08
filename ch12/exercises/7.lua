@@ -1,0 +1,2 @@
+-- 12.7 Does adding one month and then one day give the same result as adding one day and then one month?
+-- Depends on what is meany by month and day. If we're talking about the equivalent in seconds then yes, it's obviously the same since addition is commutative. If it means incrementing the numbers in a date table then yes, the result is always the same. But if it means what is most likely meant by a human, then no. If we add one day to Feb 28 we usually get Mar 1. Add a month and you're in April. With the opposite, we get Mar 28 and then Mar 29.
