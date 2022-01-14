@@ -1,0 +1,2 @@
+-- 13.2 Implement different ways to compute the number of bits in the
+--    representation of a Lua integer.
