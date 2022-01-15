@@ -1,0 +1,1 @@
+-- 13.5 Write a function to check whether a binary representation of a number is a palindrome

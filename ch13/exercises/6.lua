@@ -1,0 +1,1 @@
+-- 13.6 Implement a bit array that has newBitArray, setBit, and testBit

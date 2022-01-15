@@ -7,6 +7,7 @@
 uint = 3 << 62
 print(uint)
 print(string.format("%u", uint))
+print(string.format("subtraction: %u", uint - uint))
 
 function udiv(n, d)
   -- We can't just do normal division because Lua will interpret every number
@@ -56,4 +57,6 @@ end
 
 -- This gives the expected result, which is 1 (result of division) and 0, the
 -- remainder.
-print(modulo(uint, uint))
+print(string.format("modulo: %u", modulo(uint, uint)))
+
+print(string.format("modulo: %u", modulo(uint, 1)))
