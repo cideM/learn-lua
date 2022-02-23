@@ -1,0 +1,2 @@
+#!/bin/sh
+luac -l -o ch16/loading.lc ch16/loading.lua
