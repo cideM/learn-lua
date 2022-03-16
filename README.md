@@ -1,6 +1,6 @@
 # Programming in Lua 4th Edition
 
-## Progress (17/33)
+## Progress (18/33)
 
 |     | Done    | Date                            |
 | --- | ------- | ----                            |
@@ -21,7 +21,7 @@
 | 15  | :bell:  | Thu Feb 10 10:38:31 UTC 2022    |
 | 16  | :bell:  | Thu Mar 10 11:45:18 UTC 2022    |
 | 17  | :bell:  | Tue Mar 15 10:42:41 UTC 2022    |
-| 18  | :zzz:   |                                 |
+| 18  | :bell:  | Wed Mar 16 09:03:39 UTC 2022    |
 | 19  | :zzz:   |                                 |
 | 20  | :zzz:   |                                 |
 | 21  | :zzz:   |                                 |
