@@ -1,14 +1,7 @@
 -- 18.5 Write a *true* iterator that traverses all subsets of a given set
 
-local function bits(num)
-  if num == 0 then return {0} end
-  local bits, n = {}, num
-  while n > 0 do
-    table.insert(bits, 1, (n & 1) == 1 and "1" or "0")
-    n = n >> 1
-  end
-  return bits
-end
+-- https://www.hackerearth.com/practice/notes/fun-with-bits-print-all-subsets-of-a-set/
+-- https://mymusing.co/find-subsets-set/
 
 local function subsets(set, f)
   local cache = {}
