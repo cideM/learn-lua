@@ -1,0 +1,3 @@
+#!/bin/sh
+echo -e "foo\nbar" | LUA_PATH=event.lua lua reverse_co.lua
+

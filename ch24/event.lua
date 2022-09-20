@@ -3,6 +3,7 @@ local cmdQueue = {}
 local lib = {}
 
 function lib.readline(stream, callback)
+  print("lib.readline")
 	local nextCmd = function()
 		callback(stream:read())
 	end
