@@ -18,6 +18,10 @@
 --    store the line number with the command. The "runloop" function would then
 --    have to loop through all tasks and see which one it can run. In the end
 --    you always end up with some sort of "select" call from Go.
+--    Coming back to this explanation after a week or so, I think I forgot that
+--    "thread" here probably just means coroutine? Ultimately the problem is the
+--    same though. We want to switch between different threads so they'd need
+--    suspension points where they yield but ultimately you'd need a dispatcher.
 local cmdQueue = {}
 
 local lib = {}
