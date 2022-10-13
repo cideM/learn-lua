@@ -7,18 +7,19 @@
 -- calling function, which is stack level 1. But calling function here means
 -- function that calls getinfo, so we need to increase the level by 1 for the
 -- caller for getvarvalues
-local function getvarvalues()
+local function getvarvalues(level)
+  local level = level or 2
 	local values = {}
 
 	for i = 1, math.huge do
-		local k, v = debug.getlocal(2, i)
+		local k, v = debug.getlocal(level, i)
 		if not k then
 			break
 		end
 		values[k] = v
 	end
 
-	local func = debug.getinfo(2, "f").func
+	local func = debug.getinfo(level, "f").func
 	local env
 	for i = 1, math.huge do
 		local k, v = debug.getupvalue(func, i)
@@ -59,3 +60,7 @@ end
 
 local co = coroutine.create(foo)
 coroutine.resume(co)
+
+return {
+	getvarvalues = getvarvalues,
+}
