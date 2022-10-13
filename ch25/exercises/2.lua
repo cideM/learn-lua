@@ -66,7 +66,7 @@ b = 5
 local c = 10
 
 do
-  local f = 12
+	local f = 12
 	function foo()
 		local a = 4
 		print("before", a, b, c, f)
@@ -78,7 +78,7 @@ end
 function setvarvalue(name, level, value, thread)
 	level = (level or 1) + 1
 
-	if not debug.getinfo(thread, level - 1) then
+	if thread and not debug.getinfo(thread, level - 1) then
 		return "notfound"
 	end
 
@@ -139,3 +139,8 @@ print(setvarvalue("b", 1, 500, co))
 print(setvarvalue("c", 1, 1000, co))
 print(setvarvalue("f", 1, 22, co))
 coroutine.resume(co)
+
+return {
+	getvarvalue = getvarvalue,
+	setvarvalue = setvarvalue,
+}
